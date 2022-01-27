@@ -1,0 +1,27 @@
+{
+  "name": "@sharingbox/zip-compression-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Create zip folders into your webpack bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasmondain/zip-compression-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "compression",
+    "zip"
+  ],
+  "author": "nicolasmondain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolasmondain/zip-compression-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/nicolasmondain/zip-compression-webpack-plugin#readme",
+  "dependencies": {
+    "archiver": "5.3.0"
+  }
+}

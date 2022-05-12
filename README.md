@@ -1,4 +1,4 @@
-# zip-compression-webpack-plugin
+# @sharingbox/zip-compression-webpack-plugin
 Create zip folders into your webpack bundle.
 Uses [`archiver`](https://www.npmjs.com/package/archiver) behind the scene (a streaming interface for archive generation).
 

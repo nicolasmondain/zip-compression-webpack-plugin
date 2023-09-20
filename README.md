@@ -3,15 +3,14 @@ Create zip folders into your webpack bundle.
 Uses [`archiver`](https://www.npmjs.com/package/archiver) behind the scene (a streaming interface for archive generation).
 
 ![Version](https://img.shields.io/github/package-json/version/nicolasmondain/zip-compression-webpack-plugin)
-![Releases](https://img.shields.io/github/downloads/nicolasmondain/zip-compression-webpack-plugin/total)
+![Downloads](https://img.shields.io/npm/dm/@nicolasmondain/zip-compression-webpack-plugin.svg)
 ![Contributors](https://img.shields.io/github/contributors/nicolasmondain/zip-compression-webpack-plugin)
 ![Issues](https://img.shields.io/github/issues/nicolasmondain/zip-compression-webpack-plugin)
 ![License](https://img.shields.io/github/license/nicolasmondain/zip-compression-webpack-plugin)
-![Deployments](https://img.shields.io/github/deployments/nicolasmondain/zip-compression-webpack-plugin/production)
 
 ## Installation
 
-```
+```bash
 npm install @nicolasmondain/zip-compression-webpack-plugin --save-dev
 ```
 ## Usage

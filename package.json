@@ -1,5 +1,5 @@
 {
-  "name": "@sharingbox/zip-compression-webpack-plugin",
+  "name": "zip-compression-webpack-plugin",
   "version": "1.0.1",
   "description": "Create zip folders into your webpack bundle",
   "main": "index.js",

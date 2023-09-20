@@ -1,5 +1,5 @@
 {
-  "name": "zip-compression-webpack-plugin",
+  "name": "@nicolasmondain/zip-compression-webpack-plugin",
   "version": "1.0.1",
   "description": "Create zip folders into your webpack bundle",
   "main": "index.js",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/nicolasmondain/zip-compression-webpack-plugin#readme",
   "dependencies": {
     "archiver": "5.3.0"
-  }
+  },
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://npm.pkg.github.com/"
+	}
 }

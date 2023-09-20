@@ -1,6 +1,6 @@
 {
   "name": "@nicolasmondain/zip-compression-webpack-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create zip folders into your webpack bundle",
   "main": "index.js",
   "scripts": {

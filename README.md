@@ -18,23 +18,34 @@ npm install zip-compression-webpack-plugin --save-dev
 List of actions to perform (Array of objects).
 Each object must have 4 properties:
 
-* `from`: string
-* `name`: string
-* `to`: string
-* `deleteOriginalAssets`: boolean
+* `from` (string): Path of the folder you want to zip (relative path from the root of your project).
+* `name` (string): Name of the generated zip that will be added to your Webpack bundle (needs the `.zip` extension).
+* `to` (string): Path of the folder you want your generated zip to be moved to (relative path from the root of your project).
+* `deleteOriginalAssets` (boolean): Remove the original assets you have added to your generated zip.
 
-### `from` (string)
-Path of the folder you want to zip (relative path from the root of your project).
-### `name` (string)
-Name of the generated zip that will be added to your Webpack bundle (needs the `.zip` extension).
-### `to` (string)
-Path of the folder you want your generated zip to be moved to (relative path from the root of your project).
-### `deleteOriginalAssets` (boolean)
-Remove the original assets you have added to your generated zip.
+### Examples
 
+
+Zip the folder `./src/assets/bat` under the name `bat.zip` and move it to `./dist/app/assets`.
+
+![capture](/captures/1.png)
+
+Zip the folders:
+
+* `./src/assets/a`
+* `./src/assets/b`
+* `./src/assets/c`
+
+Save the folders as:
+
+* `a.zip`
+* `b.zip`
+* `c.zip`
+
+Move the zipped folders to `./dist/app/assets`.
 
 ```js
-const ZipFolderWebpackPlugin = require('@nicolasmondain/zip-compression-webpack-plugin');
+const ZipFolderWebpackPlugin = require('zip-compression-webpack-plugin');
 
 const configuration = {
 
@@ -44,18 +55,27 @@ const configuration = {
 
 			{
 
-				from                : './node_modules/documents-A',
-				name                : 'documents-A.zip',
-				to                  : './dist/zip',
+				from                : './node_modules/a',
+				name                : 'a.zip',
+				to                  : './dist/abc',
 				deleteOriginalAssets: false
 
 			},
 
 			{
 
-				from                : './src/assets/documents-B',
-				name                : 'documents-B.zip',
-				to                  : './dist/zip',
+				from                : './src/assets/b',
+				name                : 'b.zip',
+				to                  : './dist/abc',
+				deleteOriginalAssets: true
+
+			},
+
+			{
+
+				from                : './src/assets/c',
+				name                : 'c.zip',
+				to                  : './dist/abc',
 				deleteOriginalAssets: true
 
 			}

@@ -11,7 +11,7 @@ Uses [`archiver`](https://www.npmjs.com/package/archiver) behind the scene (a st
 ## Installation
 
 ```bash
-npm install @nicolasmondain/zip-compression-webpack-plugin --save-dev
+npm install zip-compression-webpack-plugin --save-dev
 ```
 ## Usage
 

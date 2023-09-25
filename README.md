@@ -15,7 +15,7 @@ npm install @nicolasmondain/zip-compression-webpack-plugin --save-dev
 ```
 ## Supported Versions
 
-Check compatibility between versions of fabric.js and its extension (@nicolasmondain/fabric)
+Check compatibility between versions of Webpack and zip-compression-webpack-plugin
 
 | Webpack           | zip-compression-webpack-plugin | Supported          |
 | ----------------- | ------------------------------ | ------------------ |

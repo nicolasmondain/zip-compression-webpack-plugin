@@ -11,8 +11,17 @@ Uses [`archiver`](https://www.npmjs.com/package/archiver) behind the scene (a st
 ## Installation
 
 ```bash
-npm install zip-compression-webpack-plugin --save-dev
+npm install @nicolasmondain/zip-compression-webpack-plugin --save-dev
 ```
+## Supported Versions
+
+Check compatibility between versions of fabric.js and its extension (@nicolasmondain/fabric)
+
+| Webpack           | zip-compression-webpack-plugin | Supported          |
+| ----------------- | ------------------------------ | ------------------ |
+| 5.x.x             | 2.x.x                          | :white_check_mark: |
+| 4.x.x             | 2.x.x                          | :white_check_mark: |
+
 ## Usage
 
 List of actions to perform (Array of objects).
